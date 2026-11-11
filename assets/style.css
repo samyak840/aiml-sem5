@@ -1,0 +1,386 @@
+/* LoanIQ – Professional FinTech Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* ── Reset & Base ─────────────────────────────────────────────────────────── */
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.main .block-container {
+    max-width: 1280px;
+    padding: 1.5rem 2.5rem 4rem;
+    background: #f0f4f8;
+}
+
+/* ── Sidebar ──────────────────────────────────────────────────────────────── */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0a1628 0%, #1e3a5f 100%) !important;
+    border-right: 1px solid rgba(0,212,170,0.15);
+}
+
+[data-testid="stSidebar"] * {
+    color: #e2e8f0 !important;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    color: #cbd5e1 !important;
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    transition: color 0.2s;
+}
+
+[data-testid="stSidebar"] .stRadio label:hover {
+    color: #00d4aa !important;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: rgba(255,255,255,0.1) !important;
+}
+
+/* ── Brand Logo ───────────────────────────────────────────────────────────── */
+.loaniq-brand {
+    padding: 1rem 0 1.4rem;
+    border-bottom: 1px solid rgba(0,212,170,0.25);
+    margin-bottom: 1.4rem;
+}
+
+.loaniq-brand h1 {
+    color: white !important;
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    margin: 0;
+    line-height: 1;
+}
+
+.loaniq-brand h1 span {
+    color: #00d4aa;
+}
+
+.loaniq-brand p {
+    color: #94a3b8 !important;
+    font-size: 0.75rem;
+    margin: 0.3rem 0 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* ── Hero Banner ──────────────────────────────────────────────────────────── */
+.hero-banner {
+    background: linear-gradient(135deg, #0a1628 0%, #1e3a5f 50%, #0d4f4a 100%);
+    border-radius: 20px;
+    padding: 2.5rem 3rem;
+    color: white;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(10,22,40,0.3);
+}
+
+.hero-banner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(0,212,170,0.12) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+.hero-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 0.72rem;
+    color: #00d4aa;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.hero-banner h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    margin: 0 0 0.75rem;
+    color: white !important;
+    line-height: 1.1;
+}
+
+.hero-banner p {
+    color: #94d8d0;
+    font-size: 1.05rem;
+    max-width: 680px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── KPI Cards ────────────────────────────────────────────────────────────── */
+.kpi-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.25rem 1.4rem;
+    box-shadow: 0 4px 20px rgba(10,22,40,0.07);
+    border: 1px solid rgba(226,232,240,0.8);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px; height: 100%;
+    background: #00d4aa;
+    border-radius: 4px 0 0 4px;
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(10,22,40,0.12);
+}
+
+.kpi-label {
+    color: #64748b;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.4rem;
+}
+
+.kpi-value {
+    color: #0a1628;
+    font-size: 1.9rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+}
+
+.kpi-sub {
+    color: #94a3b8;
+    font-size: 0.75rem;
+    margin-top: 0.3rem;
+}
+
+.kpi-card.danger::before { background: #ef4444; }
+.kpi-card.warning::before { background: #f59e0b; }
+.kpi-card.success::before { background: #10b981; }
+.kpi-card.info::before { background: #3b82f6; }
+
+/* ── Section Headers ──────────────────────────────────────────────────────── */
+.section-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.7rem;
+    color: #00d4aa;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.section-title {
+    color: #0a1628;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.3rem;
+}
+
+.section-subtitle {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin: 0 0 1.5rem;
+}
+
+/* ── Form Sections ────────────────────────────────────────────────────────── */
+.form-section {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 2px 12px rgba(10,22,40,0.05);
+    border: 1px solid rgba(226,232,240,0.8);
+}
+
+.form-section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0a1628;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.form-section-icon {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, #0a1628, #1e3a5f);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00d4aa;
+    font-size: 0.9rem;
+}
+
+/* ── Result Cards ─────────────────────────────────────────────────────────── */
+.result-card {
+    border-radius: 20px;
+    padding: 2rem 2.25rem;
+    color: white;
+    margin: 1.25rem 0;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.result-card::after {
+    content: '';
+    position: absolute;
+    bottom: -30px; right: -30px;
+    width: 180px; height: 180px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 50%;
+}
+
+.result-approved {
+    background: linear-gradient(135deg, #065f46 0%, #10b981 100%);
+}
+
+.result-rejected {
+    background: linear-gradient(135deg, #7f1d1d 0%, #ef4444 100%);
+}
+
+.result-review {
+    background: linear-gradient(135deg, #78350f 0%, #f59e0b 100%);
+}
+
+.result-card .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.7);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.result-card h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.6rem;
+}
+
+.result-card p {
+    color: rgba(255,255,255,0.85);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Risk Badges ──────────────────────────────────────────────────────────── */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.badge-low    { background: #dcfce7; color: #166534; }
+.badge-medium { background: #fef3c7; color: #92400e; }
+.badge-high   { background: #fee2e2; color: #991b1b; }
+.badge-approved { background: #dcfce7; color: #166534; }
+.badge-rejected { background: #fee2e2; color: #991b1b; }
+
+/* ── Info Cards ───────────────────────────────────────────────────────────── */
+.info-card {
+    background: white;
+    border-radius: 14px;
+    padding: 1.25rem 1.4rem;
+    box-shadow: 0 2px 12px rgba(10,22,40,0.06);
+    border: 1px solid #e2e8f0;
+    height: 100%;
+}
+
+.info-card .label {
+    color: #64748b;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.5rem;
+}
+
+.info-card .value {
+    color: #0a1628;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.info-card .sub {
+    color: #94a3b8;
+    font-size: 0.78rem;
+    margin-top: 0.25rem;
+}
+
+/* ── Factor Table ─────────────────────────────────────────────────────────── */
+.factor-positive {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.factor-negative {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+/* ── Formula Box ──────────────────────────────────────────────────────────── */
+.formula-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #00d4aa;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #0a1628;
+    margin: 0.75rem 0;
+}
+
+/* ── Disclaimer ───────────────────────────────────────────────────────────── */
+.disclaimer {
+    background: #fffbeb;
+    border: 1px solid #fcd34d;
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    color: #78350f;
+    font-size: 0.82rem;
+    line-height: 1.6;
+}
+
+/* ── Misc ─────────────────────────────────────────────────────────────────── */
+.stat-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.stat-row:last-child { border-bottom: none; }
+
+.chart-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 12px rgba(10,22,40,0.05);
+    border: 1px solid rgba(226,232,240,0.8);
+}

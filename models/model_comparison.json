@@ -1,0 +1,181 @@
+{
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.9613,
+      "precision": 0.8775,
+      "recall": 0.9738,
+      "f1": 0.9232,
+      "roc_auc": 0.9948,
+      "confusion_matrix": [
+        [
+          2914,
+          130
+        ],
+        [
+          25,
+          931
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.991493705341953,
+          "recall": 0.9572930354796321,
+          "f1-score": 0.9740932642487047,
+          "support": 3044.0
+        },
+        "1": {
+          "precision": 0.8774740810556079,
+          "recall": 0.9738493723849372,
+          "f1-score": 0.9231531978185424,
+          "support": 956.0
+        },
+        "accuracy": 0.96125,
+        "macro avg": {
+          "precision": 0.9344838931987804,
+          "recall": 0.9655712039322846,
+          "f1-score": 0.9486232310336236,
+          "support": 4000.0
+        },
+        "weighted avg": {
+          "precision": 0.9642430151375165,
+          "recall": 0.96125,
+          "f1-score": 0.9619185883718959,
+          "support": 4000.0
+        }
+      }
+    },
+    "Decision Tree": {
+      "accuracy": 0.8822,
+      "precision": 0.6983,
+      "recall": 0.8933,
+      "f1": 0.7838,
+      "roc_auc": 0.9373,
+      "confusion_matrix": [
+        [
+          2675,
+          369
+        ],
+        [
+          102,
+          854
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9632697155203457,
+          "recall": 0.878777923784494,
+          "f1-score": 0.9190860676859646,
+          "support": 3044.0
+        },
+        "1": {
+          "precision": 0.6982829108748978,
+          "recall": 0.893305439330544,
+          "f1-score": 0.783845800826067,
+          "support": 956.0
+        },
+        "accuracy": 0.88225,
+        "macro avg": {
+          "precision": 0.8307763131976218,
+          "recall": 0.886041681557519,
+          "f1-score": 0.8514659342560158,
+          "support": 4000.0
+        },
+        "weighted avg": {
+          "precision": 0.8999378692100836,
+          "recall": 0.88225,
+          "f1-score": 0.886763643906449,
+          "support": 4000.0
+        }
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.9173,
+      "precision": 0.7843,
+      "recall": 0.9017,
+      "f1": 0.8389,
+      "roc_auc": 0.9769,
+      "confusion_matrix": [
+        [
+          2807,
+          237
+        ],
+        [
+          94,
+          862
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9675973802137194,
+          "recall": 0.9221419185282523,
+          "f1-score": 0.9443229604709841,
+          "support": 3044.0
+        },
+        "1": {
+          "precision": 0.7843494085532302,
+          "recall": 0.9016736401673641,
+          "f1-score": 0.8389294403892944,
+          "support": 956.0
+        },
+        "accuracy": 0.91725,
+        "macro avg": {
+          "precision": 0.8759733943834749,
+          "recall": 0.9119077793478082,
+          "f1-score": 0.8916262004301392,
+          "support": 4000.0
+        },
+        "weighted avg": {
+          "precision": 0.9238011149868626,
+          "recall": 0.91725,
+          "f1-score": 0.9191339091714602,
+          "support": 4000.0
+        }
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.959,
+      "precision": 0.9304,
+      "recall": 0.8954,
+      "f1": 0.9126,
+      "roc_auc": 0.9907,
+      "confusion_matrix": [
+        [
+          2980,
+          64
+        ],
+        [
+          100,
+          856
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9675324675324676,
+          "recall": 0.9789750328515112,
+          "f1-score": 0.9732201175702155,
+          "support": 3044.0
+        },
+        "1": {
+          "precision": 0.9304347826086956,
+          "recall": 0.895397489539749,
+          "f1-score": 0.9125799573560768,
+          "support": 956.0
+        },
+        "accuracy": 0.959,
+        "macro avg": {
+          "precision": 0.9489836250705816,
+          "recall": 0.9371862611956301,
+          "f1-score": 0.9429000374631462,
+          "support": 4000.0
+        },
+        "weighted avg": {
+          "precision": 0.9586661208356861,
+          "recall": 0.959,
+          "f1-score": 0.9587271192790364,
+          "support": 4000.0
+        }
+      }
+    }
+  },
+  "best": "Logistic Regression"
+}

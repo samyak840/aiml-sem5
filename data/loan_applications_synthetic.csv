@@ -1,0 +1,25 @@
+applicant_income,coapplicant_income,loan_amount,loan_term_months,credit_history_years,existing_debt,dependents,employment_status,education,property_area,approved
+72000,18000,180000,60,8.0,16000,1,Salaried,Graduate,Urban,1
+48000,0,220000,72,3.0,42000,2,Contract,Not Graduate,Rural,0
+125000,32000,260000,48,14.0,12000,0,Salaried,Graduate,Urban,1
+36000,12000,150000,60,2.0,50000,3,Unemployed,Not Graduate,Rural,0
+86000,24000,310000,84,10.0,22000,1,Self-employed,Graduate,Semiurban,1
+54000,8000,140000,36,6.0,19000,0,Salaried,Graduate,Semiurban,1
+42000,0,280000,84,1.0,60000,2,Contract,Not Graduate,Rural,0
+98000,41000,350000,60,18.0,18000,2,Salaried,Graduate,Urban,1
+67000,0,190000,48,7.0,26000,1,Self-employed,Graduate,Urban,1
+30000,6000,120000,72,0.5,38000,3,Unemployed,Not Graduate,Rural,0
+112000,18000,230000,36,12.0,10000,0,Salaried,Graduate,Urban,1
+59000,15000,260000,84,4.0,33000,2,Contract,Graduate,Semiurban,0
+76000,22000,170000,48,9.0,14000,1,Salaried,Graduate,Semiurban,1
+39000,0,100000,36,5.0,12000,0,Self-employed,Not Graduate,Rural,1
+46000,9000,240000,72,2.0,36000,2,Unemployed,Graduate,Rural,0
+135000,50000,400000,60,22.0,24000,1,Salaried,Graduate,Urban,1
+61000,17000,210000,60,6.0,31000,2,Contract,Not Graduate,Semiurban,0
+88000,0,160000,36,11.0,8000,0,Salaried,Graduate,Urban,1
+52000,25000,290000,84,3.0,44000,3,Self-employed,Not Graduate,Rural,0
+74000,12000,200000,48,8.0,21000,1,Salaried,Graduate,Semiurban,1
+35000,5000,180000,72,1.0,29000,2,Contract,Not Graduate,Rural,0
+102000,27000,270000,60,16.0,13000,0,Salaried,Graduate,Urban,1
+68000,19000,320000,84,5.0,50000,2,Self-employed,Graduate,Semiurban,0
+45000,10000,130000,36,7.0,17000,1,Salaried,Not Graduate,Rural,1
